@@ -51,6 +51,9 @@
                                 <rect key="frame" x="36" y="270" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2O-Sx-RLU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBf-1W-bwz">
                                 <rect key="frame" x="526" y="274" width="22" height="22"/>
@@ -102,6 +105,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="roundLabel" destination="hDm-rN-HsX" id="iZn-lN-GWg"/>
+                        <outlet property="scoreLabel" destination="K5J-cR-z4d" id="XGY-OJ-px7"/>
+                        <outlet property="slider" destination="OJz-Fe-ObJ" id="Y1R-cN-x8l"/>
+                        <outlet property="targetValueLabel" destination="q2M-xZ-EPd" id="lbe-9m-OLv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
